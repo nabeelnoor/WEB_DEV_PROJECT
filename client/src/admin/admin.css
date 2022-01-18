@@ -1,0 +1,97 @@
+.card-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    height: 100vh;
+
+  }
+
+  .card-displayR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    height: 100vh;
+    margin-top: 17vh;
+
+  }
+  .card-width {
+    width: 45vh;
+    height: 65vh;
+  }
+  .card-widthL {
+    width: 45vh;
+    height: 50vh;
+  }
+  .card-widthR {
+    width: 45vh;
+    height: 90vh;
+  }
+
+  .card-widthRe {
+    width: 50vh;
+    height: 100vh;
+  }
+
+  .centered-reg img {
+    position: absolute;
+    right: 28%;
+    width:20vh;
+    height: 20vh;
+    top:-20vh;
+    border-radius: 50%;
+    
+  }
+  
+   .centered-login img {
+      position: absolute;
+      right: 28%;
+      width:20vh;
+      height: 20vh;
+      top:-20vh;
+      border-radius: 50%;
+      
+    }
+  
+  
+    .label {
+      cursor: pointer;
+      color: #555;
+      display: block;
+      padding: 10px;
+      margin: 5px;
+    }
+  
+  
+
+    .md-form label.active {
+      color:'#4863A0' !important;
+      background-color: white;
+    }
+
+    .bgrP{
+      background-color:lightblue;
+      position:absolute; 
+      height:100%; 
+      width:100%;
+      margin: 0px 0 0 0;
+    }
+
+    .bgrAdmin{
+      background-color:snow;
+      position:absolute; 
+      height:100%; 
+      width:100%;
+      margin: 0px 0 0 0;
+    }
+
+    .mainContainer{
+      display:flex;
+      flex-wrap: wrap;
+    }
+
+    .listContainer{
+      order:0;
+      padding: 10px;
+    }
